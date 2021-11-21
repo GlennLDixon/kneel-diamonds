@@ -1,5 +1,10 @@
 /* You need to create the rest of styles for the layout shown */
 
+.choices {
+    display: flex;
+    justify-content: center;
+}
+
 .options {
     flex-basis: 24%;
     margin: 0 2rem;
