@@ -45,7 +45,7 @@ export const getStyles = () => {
 export const getSizes = () => {
     return database.sizes.map(sizes => ({...sizes}))
 }
-export const getCustomerOrders = () => {
+export const getOrders = () => {
     return database.customerOrders.map(customOrders => ({...customOrders}))
 }
 
