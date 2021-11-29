@@ -5,6 +5,7 @@
     modules to get copies of the state.
 
 */
+
 const database = {
     orderBuilder: {
 
@@ -76,6 +77,6 @@ export const newCustomOrder = () => {
     database.customOrders.push(newOrder)
 
     database.orderBuilder = {}
-
+    
     document.dispatchEvent(new CustomEvent("stateChanged"))
 }
