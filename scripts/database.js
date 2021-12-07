@@ -29,6 +29,11 @@ const database = {
         { id: 4, metal: "Platinum", price: 795.45 },
         { id: 5, metal: "Palladium", price: 1241.0 }
     ],
+    JewelryPiece: [
+        { id: 1, piece: "Ring", price: 0},
+        { id: 2, piece: "Earring", price: 2},
+        { id: 3, piece: "Necklace", price: 4}
+    ],
     customOrders: [
         {
             id: 1,
